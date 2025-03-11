@@ -36,6 +36,7 @@ export default function Home() {
       {!hide && (
         <>
         <Texto1 />
+        <Texto1 />
         </>
       )}
     </div>
