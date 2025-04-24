@@ -15,7 +15,7 @@ export default function Sobre() {
 
 
             <p className = "max-w-xl">
-                Fala! Eu sou o Daniel, o criador deste conversor. Utilizei Next.js e Tailwind CSS para desenvolver este projeto.
+                Fala! Eu sou o Daniel, tenho 19 anos de idade, sou estudante de Sistemas para Internet na Universidade Católica de Pernambuco e criador deste conversor. Utilizei Next.js e Tailwind CSS para desenvolver este projeto.
             </p>
         </main>
     )
