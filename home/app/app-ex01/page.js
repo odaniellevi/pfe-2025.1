@@ -18,10 +18,14 @@ function gerarNumAleat() {
   return Math.floor(Math.random() * 6) + 1;
 }
 
-function GirarDado({src, alt}) {
+function Dado({ valor }) {
   return (
-    <img src={src} alt={alt} style={{ borderRadius: '50px', padding: '20px' }}/>
-  )
+    <img
+      src={`/dado${valor}.jpg`}
+      alt={`Dado ${valor}`}
+      style={{ borderRadius: '50px', padding: '20px' }}
+    />
+  );
 }
 
 export default function Home() {
@@ -33,7 +37,7 @@ export default function Home() {
     <div className="container">
       <Tittle/>
       <MyButton onClick={handleClick}/>
-      <GirarDado src={`/dado${random}.jpg`} alt={`Dado ${random}`} />
+      <Dado valor={random} />
     </div>
   )
 }
